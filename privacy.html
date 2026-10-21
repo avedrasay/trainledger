@@ -31,9 +31,9 @@
 <p>If you tap Connect Google Drive in Settings › Workout File, you sign in with Google on Google's own page. TrainLedger asks only for the <code>drive.file</code> permission. That permission lets TrainLedger see and change only the files it created itself. It cannot see any of your other files in Google Drive.</p>
 <ul>
 <li><strong>What TrainLedger sends:</strong> the Workout File (your latest workout and the last 7 days). It creates the file once and then keeps updating that same file.</li>
-<li><strong>What TrainLedger reads from Google:</strong> only what it needs to update that file, such as the file's ID.</li>
-<li><strong>Your sign-in:</strong> Google's sign-in token is kept in your iPhone's Keychain. It is never sent to the developer or anyone else.</li>
-<li><strong>Disconnecting:</strong> turn it off in Settings › Workout File, or remove TrainLedger at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. The file stays in your Drive until you delete it.</li>
+<li><strong>What TrainLedger reads from Google:</strong> your Google account's email address, shown in Settings so you know which account is connected and stored only on your iPhone, and what it needs to keep updating its own file, such as the file's ID.</li>
+<li><strong>Your sign-in:</strong> Google's sign-in token is kept in your iPhone's Keychain and sent only to Google. It is never sent to the developer or anyone else.</li>
+<li><strong>Disconnecting:</strong> tap Disconnect Google Drive in Settings › Workout File, or remove TrainLedger at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. If you delete the app without disconnecting, TrainLedger's access stays allowed in your Google account until you remove it there. The file stays in your Drive until you delete it.</li>
 </ul>
 <p>TrainLedger's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. TrainLedger doesn't use this information for ads, doesn't sell it, and doesn't share it with anyone. No person reads it.</p>
 
@@ -41,7 +41,7 @@
 <p>If you let another app or assistant read your Workout File (for example, Claude with Google Drive), that service handles the file under its own privacy policy.</p>
 
 <h2>Deleting your data</h2>
-<p>Deleting TrainLedger deletes the data on your iPhone. Backups in iCloud Drive and a Workout File in Google Drive or another folder stay until you delete them there. The developer holds no copy, so there's nothing for us to delete.</p>
+<p>Deleting TrainLedger deletes your workouts and settings on your iPhone. iOS may keep the Google sign-in token in the Keychain; TrainLedger deletes it if you install it again. To end Google Drive access right away, disconnect first or remove TrainLedger in your Google account. Backups in iCloud Drive and a Workout File in Google Drive or another folder stay until you delete them there. The developer holds no copy, so there's nothing for us to delete.</p>
 
 <h2>Children</h2>
 <p>TrainLedger doesn't collect personal information from anyone, including children.</p>
